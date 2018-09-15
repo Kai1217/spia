@@ -103,5 +103,8 @@ window.onclick = function(event) {
         modal2.style.display = "none";
     }
 } 
+function goBack() {
+    window.history.back();
+}
 alertFunction();
 browserDetection();
