@@ -1,10 +1,10 @@
-function alertFunction() {
+/* function alertFunction() {
     var alerted = localStorage.getItem('alerted') || '';
     if (alerted != 'yes') {
         alert("Welcome! Enjoy your stay!");
         localStorage.setItem('alerted','yes');
     }
-}
+} */
 function browserDetection() { 
     if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
    {
@@ -106,5 +106,5 @@ window.onclick = function(event) {
 function goBack() {
     window.history.back();
 }
-alertFunction();
+// alertFunction();
 browserDetection();
