@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <body id="myPage">
 
 <!-- Sidebar on click -->
@@ -17,7 +18,7 @@
   </a>
   <br>
   <div class="parentElement">
-  <button class="btn btn-default btn-work" id="myBtn">ML</button>
+  <button type="button" class="btn btn-default btn-work btn-primary" id="myBtn">ML</button>
   </div>
   <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -30,7 +31,7 @@
 </div>
 
   <div class="parentElement">
-  <button class="btn btn-default btn-work" id="myBtn2" style="text-align:center">Software</button>
+  <button type="button" class="btn btn-default btn-work btn-primary" id="myBtn2" style="text-align:center">Software</button>
 </div>
   <div id="myModal2" class="modal2">
     
@@ -60,7 +61,6 @@
       <a href="#" class="w3-bar-item w3-button">Link</a>
     </div> -->
   </div>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-blue" title="Search"><i class="fa fa-search"></i></a>
  </div>
 
   <!-- Navbar on small screens -->
@@ -82,6 +82,7 @@
 
 <!-- Team Container -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
+<div class="shadow-sm p-3 mb-5 bg-white rounded">
 <h2><b>OUR TEAM</b></h2>
 <p>Meet the team:</p>
 
@@ -98,7 +99,7 @@
   <h3>Oliver Strong</h3>
   <p>Software Developer</p>
 </div>
-
+</div>
 </div>
 </div>
 
@@ -127,13 +128,14 @@
     <div class="w3-col m5">
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar"><b>Contact Us</b></span></div>
       <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Brisbane, Australia</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  kaimatolat@hotmail.com</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  <a href="mailto:kaimatolat@hotmail.com?Subject=Hello" target="_top">kaimatolat@hotmail.com</a></p>
     </div>
   </div>
 </div>
 
 <!-- Google Maps -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="location">
+  <div class="shadow-lg p-3 mb-5 bg-black rounded">
   <div class="resp-container">
   <div class="w3-row">
     <div class="w3-col m5">
@@ -142,6 +144,7 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
@@ -149,9 +152,10 @@
   <a class="w3-button w3-large w3-green" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
   <a class="w3-button w3-large w3-green" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>
   <a href="https://github.com/Kai1217" target="_blank" class="w3-button w3-large w3-green w3-hide-small" href="javascript:void(0)" title="GitHub"><i class="fa fa-github"></i></a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and <a href="https://getbootstrap.com/" target="_blank">BootstrapCDN</a></p>
   <br>
   <p>&copy; Suicide Prevention Inititave Australia</p>
+  <p><a href="assets/pages/license.html" class="text-dark">LICENSES</a></p>
 
   <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
     <span class="w3-text w3-padding w3-green w3-hide-small">Go To Top</span>   
