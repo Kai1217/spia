@@ -168,3 +168,9 @@ div.parentElement{text-align: center;}
     line-height: 50px;
     text-align: center;
 }
+
+logo {
+ height: 600px;
+ width: 100%;
+ overflow: hidden;
+}
