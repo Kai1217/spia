@@ -169,7 +169,7 @@ div.parentElement{text-align: center;}
     text-align: center;
 }
 
-logo {
+.logo_div {
  height: 600px;
  width: 100%;
  overflow: hidden;
