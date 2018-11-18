@@ -173,4 +173,5 @@ div.parentElement{text-align: center;}
  height: 600px;
  width: 100%;
  overflow: hidden;
+ object-fit: cover;
 }
